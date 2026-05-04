@@ -18,7 +18,6 @@ class _OrganizationDetailScreenState extends State<OrganizationDetailScreen> {
   final OrganizationService _organizationService = OrganizationService();
   late Future<List<Task>> _tasksFuture;
   
-  // Mapa para persistir estados localmente durante la sesión en esta pantalla
   final Map<String, String> _localTaskStates = {};
 
   @override
